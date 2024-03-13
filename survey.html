@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <h1 id="title">Formulaire d'enregistrement</h1>
+    <p id="description"><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+    <form action="#" id="survey-form">
+        <fieldset>
+            <legend>Information personnelles</legend>
+            <label for="name" id="name-label">Name <em>*</em></label>
+            <input id="name" placeholder="Fabrice Osse" autofocus="" required><br>
+            <label for="email" id="email-label">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="prenom.nom@osak.ci" required
+                pattern="[a-zA-Z]*.[a-zA-Z]*@osak.ci"><br>
+            <label for="number" id="number-label">Number</label>
+            <input id="number" type="number" required max="100" min="1" placeholder="123..."><br>
+
+            <label for="dropdown">Sexe</label>
+            <select id="dropdown">
+                <option value="" name="sexe">(Choisir)</option>
+                <option value="F" name="sexe">Femme</option>
+                <option value="H" name="sexe">Homme</option>
+            </select><br>
+            <label for="option1"><input id="option1" type="radio" name="option" value="1"> Option 1</label>
+            <label for="option2"><input id="option2" type="radio" name="option" value="2"> Option 2</label><br>
+            <label for="comments">Commentaire </label>
+            <textarea id="comments"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Choisissez vos binets favoris</legend>
+            <label for="chatnoir"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Chat Noir</label>
+            <label for="oenologie"><input id="oenologie" type="checkbox" name="binet" value="vin"> Œnologie</label>
+            <label for="bobar"><input id="bobar" type="checkbox" name="binet" value="bob"> Bôbar</label>
+            <label for="Xpara"><input id="Xpara" type="checkbox" name="binet" value="para"> X-Para</label>
+            <label for="khomiss"><input id="khomiss" type="checkbox" name="binet" value="???"> Khômiss</label>
+            <label for="politix"><input id="politix" type="checkbox" name="binet" value="politix"> PolitiX</label>
+            <label for="raid"><input id="raid" type="checkbox" name="binet" value="raid"> Binet Raid</label>
+            <label for="Xsoirees"><input id="Xsoirees" type="checkbox" name="binet" value="fiesta"> X-soirées</label>
+        </fieldset>
+        <p><input type="submit" id="submit" value="Soummettre"></p>
+    </form>
+</body>
+<html>

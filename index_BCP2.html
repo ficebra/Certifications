@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Checkpoint Responsive Store Landing Page Design</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="border-bottom lh-1 py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1"><a href="">S'inscrire</a></div>
+                <div class="col-4 text-center"><img src="" alt="logo_OSAK"></div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Se connecter</a>
+                </div>
+            </div>
+        </div>
+        <!-- CREATION DU MENU -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OsAk Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acheter une montre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ventre une montre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Voir la Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">FAQ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN DU MENU -->
+
+    <!-- CONTAINER -->
+    <div class="container py-4 shadow bg-body-tertiary">
+
+        <!-- FIN DU CAROUSEL D'IMAGE -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..\img\img_montre_1.jpg" class="d-block w-100" alt="..."
+                        style="width: auto; height: 400px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\img_montre_2.jpg" class="d-block w-100" alt="..."
+                        style="width: auto; height: 400px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FIN DU CAROUSEL D'IMAGE -->
+
+        <!-- CREATION DE LA SECTION SECURITE -->
+        <div class="row g-0 py-3">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                Marque Populaire
+            </h3>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis">Rolex</strong>
+                        <h3 class="card-title">Featured post</h3>
+                        <p class="card-text mb-auto">Le règne de Rolex en tant que reine incontestée des marques
+                            d’horlogerie se poursuit – et ses montres sont toujours aussi prisées.
+                        </p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Voir plus
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em">Image Rolex</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-3">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis">Omega</strong>
+                        <h3 class="card-title">Featured post</h3>
+                        <p class="card-text mb-auto">Une autre marque incroyablement populaire est Omega. Originaire de
+                            Bienne, en Suisse, c’est à elle que l’on doit certaines...
+                        </p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Voir plus
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em">Image Omega</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE LA SECTION SECURITE -->
+
+        <!-- CORP -->
+        <h3 class="py-3">Première plateforme pour les montres de luxe depuis 2003</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-80 text-center">
+                    <img src="https://static.chrono24.com/images/default/illustrations/buyer-rating.svg"
+                        class="card-img-top py-2" alt="..." width="90" height="90">
+                    <div class="card-body">
+                        <h5 class="card-title">4,8 sur 5 étoiles</h5>
+                        <p class="card-text">parmi 151 000 évaluations dans le monde entier.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-80 text-center">
+                    <img src="https://static.chrono24.com/images/default/illustrations/love-my-watch.svg"
+                        class="card-img-top py-2" alt="..." width="90" height="90">
+                    <div class="card-body">
+                        <h5 class="card-title">9 millions</h5>
+                        <p class="card-text">d'amateurs de montres utilisent Chrono24 chaque mois</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-80 text-center">
+                    <img src="https://static.chrono24.com/images/default/illustrations/handshake.svg"
+                        class="card-img-top py-2" alt="..." width="90" height="90">
+                    <div class="card-body">
+                        <h5 class="card-title">Plus de 200 000</h5>
+                        <p class="card-text">acheteurs font confiance chaque année à la Protection des Acheteurs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-80 text-center">
+                    <img src="https://static.chrono24.com/images/default/illustrations/dealer.svg"
+                        class="card-img-top py-2" alt="..." width="90" height="90">
+                    <div class="card-body">
+                        <h5 class="card-title">Plus de 25 000</h5>
+                        <p class="card-text" style="padding-bottom: 23px;">vendeurs de confiance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5 py-5">
+            <div class="col-md-8">
+                <div class="card mb-3" style="max-width: auto; height: auto;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">La Protection des Acheteurs chez OsAk</h5>
+                                <ul class="text-md text-md-lg m-b-5">
+                                    <li>Paiement par tiers de confiance</li>
+                                    <li>Garantie d'Authenticité</li>
+                                    <li>Garantie de remboursement dans le monde entier</li>
+                                    <li>Des Directives relatives aux professionnels strictes</li>
+                                    <li>Envoi sécurisé</li>
+                                    <li>Équipe qualité &amp; sécurité</li>
+                                </ul>
+                            </div>
+                            <div class="mx-3">
+                                <a href="" class="btn btn-outline-secondary">En savoir plus sur la securite</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="\img\protection_client.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="\img\montre1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                        style="color: gray;">Herbelin</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img\montre8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                    style="color: gray;">Pordagar</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img\montre3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                    style="color: gray;">Alpina</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img\montre4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                    style="color: gray;">fdbwatch</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img\montre5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                    style="color: gray;">Breitling</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img\montre6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="" class="text-decoration-none"
+                                    style="color: gray;">Longine</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-4"><a href="" style="color: grey">Afficher Plus</a></div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 alert alert-success rounded">
+                        <h4 class="fst-italic">A propos de OsAk</h4>
+                        <p class="mb-0">OsAk est une boutique specialise dans la vente de montre de luxe destinee a tout
+                            type de personne.</p>
+                    </div>
+
+                    <div>
+                        <h4 class="fst-italic">Publie Recemment</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg>
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Nouvelle Rolex 2024</h6>
+                                        <small class="text-body-secondary">Mars 4, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg>
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Elle vous mettra en valeur</h6>
+                                        <small class="text-body-secondary">Fevrier 14, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg>
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Unique dans le monde</h6>
+                                        <small class="text-body-secondary">Janvier 13, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Nous Suivre</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE SECTION DESTINATION -->
+
+        <div class="row g-0 py-3">
+            <div class="col-sm-6 col-md-6 gx-3">
+                <h2>Situation Geographique</h2>
+                <hr>
+                <!--Google map-->
+                <div id="map-container-google-1" class="z-depth-1-half map-container">
+                    <img src="..\img\maps.jpg" alt="" width="550px">
+
+                </div>
+
+                <!--Google Maps-->
+            </div>
+
+            <div class="col-sm-6 col-md-6 gx-3">
+                <form action="">
+                    <h2>Formulaire de Contact</h2>
+                    <hr>
+                    <div class="card p-3">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Destination</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary">Valider</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="blockcode" style="background-color: rgb(24, 49, 83);">
+        <footer class="page-footer bg-tertiary shadow text-white">
+            <div class="d-flex flex-column mx-auto py-5" style="width: 80%">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div>
+                        <a href="/" class="d-flex align-items-center p-0 text-white">
+                            <img alt="logo_osak" src="../img/logo.png" width="30px" />
+                            <span class="ms-3 h5 font-weight-bold">OsAk Watch</span>
+                        </a>
+                        <p class="my-3" style="width: 250px">
+                            OsAk est une boutique specialise dans la vente de montre de luxe destinee a tout
+                            type de personne.
+                        </p>
+                        <span class="mt-4">
+                            <button class="btn btn-dark btn-flat p-2">
+                                <i class="fa fa-facebook"></i>
+                            </button>
+                            <button class="btn btn-dark btn-flat p-2">
+                                <i class="fa fa-twitter"></i>
+                            </button>
+                            <button class="btn btn-dark btn-flat p-2">
+                                <i class="fa fa-instagram"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <div>
+                        <p class="h5 mb-4" style="font-weight: 600">Acheter une montre</p>
+                        <ul class="p-0" style="list-style: none; cursor: pointer">
+                            <li class="my-2">
+                                <a class="text-white" href="/">Lien 1</a>
+                            </li>
+                            <li class="my-2">
+                                <a class="text-white" href="/">Lien 2</a>
+                            </li>
+                            <li class="my-2">
+                                <a class="text-white" href="/">Lien 3</a>
+                            </li>
+                            <li class="my-2">
+                                <a class="text-white" href="/">Lien 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="h5 mb-4" style="font-weight: 600">Support</p>
+                        <ul class="p-0" style="list-style: none; cursor: pointer">
+                            <li class="my-2">
+                                <a class="text-white" href="/">SAV</a>
+                            </li>
+                            <li class="my-2">
+                                <a class="text-white" href="/">Creer un compte</a>
+                            </li>
+                            <li class="my-2">
+                                <a class="text-white" href="/">Se connecter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="h5 mb-4" style="font-weight: 600">Contact</p>
+                        <ul class="p-0" style="list-style: none; cursor: pointer">
+                            <li class="my-2">
+                                <i class="fa fa-envelope"></i> <a class="text-white" href="/">info@osak.ci</a>
+                            </li>
+                            <li class="my-2">
+                                <i class="fa fa-phone-square"></i> <a class="text-white" href="/">(+225) 27 233 550
+                                    88</a>
+                            </li>
+                            <li class="my-2">
+                                <i class="fa fa-phone-square"></i> <a class="text-white" href="/">(+225) 07 07 77 47
+                                    27</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <small class="text-center mt-5">&copy; OsAk Watch, 2024. Tous droits reserves.</small>
+            </div>
+        </footer>
+    </div>
+    <!-- FIN DE FOOTER -->
+</body>
+
+</html>
